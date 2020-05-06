@@ -1,30 +1,28 @@
 # Rebase Changes to a Fork
 
-[Configure a **forked repository**](ConfigureAFork.md) if not done already.
-
-### Problem
-
-The branch **myBranch** from the **base repository** has some changes I want in a branch of my **forked repository**. I want these changes without merge commits.
+Get changes from **upstream/featureBranch** into the local branch **featureBranch** of the **forked repository**. Get these changes without merge commits.
 
 ### Solution
 
-Fetch the branches of the remote called **upstream** into remote-tracking branches such as **upstream/myBranch**:
+Fetch the branches of the **upstream repository** into remote-tracking branches such as **upstream/featureBranch**:
 
 ```bash
 git fetch upstream
 ```
 
-Checkout the local **myBranch** and rebase it against the newly fetched remote-tracking branch **upstream/myBranch**:
+Checkout **featureBranch** and rebase it against **upstream/featureBranch**:
 
 ```bash
-git checkout myBranch
-git rebase upstream/myBranch
+git checkout featureBranch
+git rebase upstream/featureBranch
 ```
 
-Overwrite **origin's** version of **myBranch**:
+Solve any conflicts.
+
+Overwrite **origin/featureBranch**:
 
 ```bash
-git push -f origin myBranch
+git push -f origin featureBranch
 ```
 
 ### More Workflows

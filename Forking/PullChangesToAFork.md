@@ -1,23 +1,21 @@
 # Pull Changes to a Fork
 
-[Configure a **forked repository**](ConfigureAFork.md) if not done already.
-
-### Problem
-
-The branch **myBranch** from the **base repository** has some changes I want in a branch of my **forked repository**.
+Get changes from **upstream/featureBranch** into the local branch **featureBranch** of the **forked repository**.
 
 ### Solution
 
-Pull from the **base repository**, whose remote is called **upstream** into the **myBranch** branch of your local **forked repository**:
+Pull from the **upstream repository** into the **featureBranch** branch of your local **forked repository**:
 
 ```bash
-git pull upstream myBranch
+git pull upstream featureBranch
 ```
 
-Overwrite the remote **myBranch** branch of your **forked repository**:
+Solve any conflicts.
+
+Overwrite **origin/featureBranch**:
 
 ```bash
-git push origin myBranch
+git push origin featureBranch
 ```
 
 ### More Workflows

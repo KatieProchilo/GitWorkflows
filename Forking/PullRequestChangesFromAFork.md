@@ -23,9 +23,9 @@ Push **featureBranch** to **origin**, the remote for your **forked repository**:
 git push origin featureBranch
 ```
 
-Navigate to the **base repository**, and you should see the below pop-up. Click **Compare & pull request** to create a pull request from **origin/featureBranch**:
+Navigate to the **upstream repository**, and you should see the below pop-up. Click **Compare & pull request** to create a pull request from **origin/featureBranch**:
 
-![Recently Pushed Branches for a Forked Repository](images/ForkRecentlyPushedBranches.png)
+![Recently Pushed Branches for a Forked Repository](../images/ForkRecentlyPushedBranches.png)
 
 Approve the pull request. Resolve any merge conflicts or [rebase your changes](RebaseChangesToAFork.md) against the latest in **upstream/master**, then merge the pull request.
 
