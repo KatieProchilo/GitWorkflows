@@ -1,6 +1,6 @@
 # Pull Changes to a Fork
 
-[Configure a **forked repository**](ConfigureAForkedRepository.md) if not done already.
+[Configure a **forked repository**](ConfigureAFork.md) if not done already.
 
 ### Problem
 
