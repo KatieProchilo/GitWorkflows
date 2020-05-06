@@ -28,3 +28,9 @@ Navigate to the **base repository**, and you should see the below pop-up. Click 
 ![Recently Pushed Branches for a Forked Repository](images/ForkRecentlyPushedBranches.png)
 
 Approve the pull request. Resolve any merge conflicts or [rebase your changes](RebaseChangesToAFork.md) against the latest in **upstream/master**, then merge the pull request.
+
+### More Workflows
+
+* [Configure a Fork](ConfigureAFork.md)
+* [Pull Changes to a Fork](PullChangesToAFork.md)
+* [Rebase Changes to a Fork](RebaseChangesToAFork.md)

@@ -26,3 +26,9 @@ Overwrite **origin's** version of **myBranch**:
 ```bash
 git push -f origin myBranch
 ```
+
+### More Workflows
+
+* [Configure a Fork](ConfigureAFork.md)
+* [Pull Changes to a Fork](PullChangesToAFork.md)
+* [Pull Request Changes From a Fork](PullRequestChangesFromAFork.md)

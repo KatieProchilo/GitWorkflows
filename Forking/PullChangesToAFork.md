@@ -19,3 +19,9 @@ Overwrite the remote **myBranch** branch of your **forked repository**:
 ```bash
 git push origin myBranch
 ```
+
+### More Workflows
+
+* [Configure a Fork](ConfigureAFork.md)
+* [Pull Request Changes From a Fork](PullRequestChangesFromAFork.md)
+* [Rebase Changes to a Fork](RebaseChangesToAFork.md)
