@@ -14,4 +14,8 @@ Now you're ready to explore other forking workflows.
 
 ### Forking Workflows
 
+These workflows have guidance specific to forks with two remotes called **origin** and **upstream**:
+
+* [Pull Changes to a Fork](PullChangesToAFork.md)
 * [Pull Request Changes From a Forked Repository](PullRequestChangesFromAForkedRepository.md)
+* [Rebase Changes to a Fork](RebaseChangesToAFork.md)
