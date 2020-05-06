@@ -2,11 +2,7 @@
 
 [Configure a **forked repository**](ConfigureAForkedRepository.md) if not done already.
 
-To get the latest changes from the **base repository**, whose remote is called **upstream**, into the **master** branch of your local **forked repository**:
-
-```bash
-git pull upstream master
-```
+[Pull](PullChangesToAFork.md) or [rebase](RebaseChangesToAFork.md) the latest changes from **upstream/master** into the **master** branch of your local **forked repository**.
 
 Create a local **featureBranch**:
 
@@ -31,4 +27,4 @@ Navigate to the **base repository**, and you should see the below pop-up. Click 
 
 ![Recently Pushed Branches for a Forked Repository](images/ForkRecentlyPushedBranches.png)
 
-Approve the pull request. If needed, resolve merge conflicts or [rebase changes](RebaseABranch.md).
+Approve the pull request. Resolve any merge conflicts or [rebase your changes](RebaseChangesToAFork.md) against the latest in **upstream/master**, then merge the pull request.
