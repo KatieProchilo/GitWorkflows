@@ -1,22 +1,25 @@
-# Pull Changes to a Fork
+# Pull changes to a fork
 
-Pull from the **upstream** into a local **featureBranch** of a forked repository:
+Get the changes from some remote branch from the upstream repository into a local branch of your fork:
 
-```bash
-git pull upstream featureBranch
-```
+1. Pull from the upstream into a **featureBranch** of a fork:
 
-Solve any conflicts.
+    ```bash
+    git pull upstream featureBranch
+    ```
 
-Push **origin/featureBranch**:
+1. Solve any conflicts.
 
-```bash
-git push origin featureBranch
-```
+1. Push **origin/featureBranch**:
+
+    ```bash
+    git push origin featureBranch
+    ```
 
 ### More Workflows
 
-* [Checkout a branch from another person's fork](CheckoutABranchFromAnotherPersonsFork.md)
-* [Configure a fork](ConfigureAFork.md)
-* [Pull request changes from a fork](PullRequestChangesFromAFork.md)
-* [Rebase changes to a fork](RebaseChangesToAFork.md)
+- [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
+- [Checkout a branch to a fork](CheckoutABranchToAFork.md)
+- [Configure a fork](ConfigureAFork.md)
+- [Push changes from a fork](PushChangesFromAFork.md)
+- [Rebase changes to a fork](RebaseChangesToAFork.md)

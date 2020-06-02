@@ -1,8 +1,17 @@
 # Git Workflows
 
-### Forking
+Minimal commands and reading to execute basic Git workflows.
 
-* [Configure a Fork](Forking/ConfigureAFork.md)
-* [Pull Changes to a Fork](Forking/PullChangesToAFork.md)
-* [Pull Request Changes From a Fork](Forking/PullRequestChangesFromAFork.md)
-* [Rebase Changes to a Fork](Forking/RebaseChangesToAFork.md)
+## Branching
+
+- [Checkout a branch from a fork to another fork](Forking/CheckoutABranchFromAForkToAnotherFork.md)
+- [Checkout a branch to a fork](Forking/CheckoutABranchToAFork.md)
+
+## Forking
+
+- [Checkout a branch from a fork to another fork](Forking/CheckoutABranchFromAForkToAnotherFork.md)
+- [Checkout a branch to a fork](Forking/CheckoutABranchToAFork.md)
+- [Configure a fork](Forking/ConfigureAFork.md)
+- [Pull changes to a fork](Forking/PullChangesToAFork.md)
+- [Push changes from a fork](Forking/PushChangesFromAFork.md)
+- [Rebase changes to a fork](Forking/RebaseChangesToAFork.md)

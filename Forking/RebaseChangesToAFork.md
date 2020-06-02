@@ -1,14 +1,14 @@
 # Rebase changes to a fork
 
-Get changes from **upstream/featureBranch** into the local branch **featureBranch** of the **forked repository**. Get these changes without merge commits.
+Get changes without merge commits from **upstream/featureBranch** into **featureBranch** of the fork.
 
-1. Fetch the branches of the **upstream repository** into remote-tracking branches such as **upstream/featureBranch**:
+1. Fetch the branches of the upstream into remote-tracking branches such as **upstream/featureBranch**:
 
     ```bash
     git fetch upstream
     ```
 
-2. Checkout **featureBranch** and rebase it against **upstream/featureBranch**:
+2. Checkout **featureBranch**, then rebase it against **upstream/featureBranch**:
 
     ```bash
     git checkout featureBranch
@@ -25,7 +25,8 @@ Get changes from **upstream/featureBranch** into the local branch **featureBranc
 
 ### More Workflows
 
-* [Checkout a branch from another person's fork](CheckoutABranchFromAnotherPersonsFork.md)
-* [Configure a fork](ConfigureAFork.md)
-* [Pull changes to a fork](PullChangesToAFork.md)
-* [Pull request changes from a fork](PullRequestChangesFromAFork.md)
+- [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
+- [Checkout a branch to a fork](CheckoutABranchToAFork.md)
+- [Configure a fork](ConfigureAFork.md)
+- [Pull changes to a fork](PullChangesToAFork.md)
+- [Push changes from a fork](PushChangesFromAFork.md)
