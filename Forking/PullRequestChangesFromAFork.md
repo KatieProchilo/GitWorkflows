@@ -1,4 +1,4 @@
-# Pull Request Changes From a Fork
+# Pull request changes from a fork
 
 [Configure a **forked repository**](ConfigureAFork.md) if not done already.
 
@@ -31,6 +31,7 @@ Approve the pull request. Resolve any merge conflicts or [rebase your changes](R
 
 ### More Workflows
 
-* [Configure a Fork](ConfigureAFork.md)
-* [Pull Changes to a Fork](PullChangesToAFork.md)
-* [Rebase Changes to a Fork](RebaseChangesToAFork.md)
+* [Checkout a branch from another person's fork](CheckoutABranchFromAnotherPersonsFork.md)
+* [Configure a fork](ConfigureAFork.md)
+* [Pull changes to a fork](PullChangesToAFork.md)
+* [Rebase changes to a fork](RebaseChangesToAFork.md)

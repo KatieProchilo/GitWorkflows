@@ -1,10 +1,6 @@
 # Pull Changes to a Fork
 
-Get changes from **upstream/featureBranch** into the local branch **featureBranch** of the **forked repository**.
-
-### Solution
-
-Pull from the **upstream repository** into the **featureBranch** branch of your local **forked repository**:
+Pull from the **upstream** into a local **featureBranch** of a forked repository:
 
 ```bash
 git pull upstream featureBranch
@@ -12,7 +8,7 @@ git pull upstream featureBranch
 
 Solve any conflicts.
 
-Overwrite **origin/featureBranch**:
+Push **origin/featureBranch**:
 
 ```bash
 git push origin featureBranch
@@ -20,6 +16,7 @@ git push origin featureBranch
 
 ### More Workflows
 
-* [Configure a Fork](ConfigureAFork.md)
-* [Pull Request Changes From a Fork](PullRequestChangesFromAFork.md)
-* [Rebase Changes to a Fork](RebaseChangesToAFork.md)
+* [Checkout a branch from another person's fork](CheckoutABranchFromAnotherPersonsFork.md)
+* [Configure a fork](ConfigureAFork.md)
+* [Pull request changes from a fork](PullRequestChangesFromAFork.md)
+* [Rebase changes to a fork](RebaseChangesToAFork.md)
