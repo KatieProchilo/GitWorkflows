@@ -16,7 +16,7 @@ Get the changes from some remote branch from the upstream repository into a loca
     git push origin featureBranch
     ```
 
-### More Workflows
+## More Workflows
 
 - [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
 - [Checkout a branch to a fork](CheckoutABranchToAFork.md)

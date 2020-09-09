@@ -1,6 +1,7 @@
 # Checkout a branch from a fork to another fork
 
-When another person has created a separate fork from the same upstream as you, you may want to checkout their branch in your own fork to review changes in a pull request or add changes of your own:
+When another person has created a separate fork from the same upstream as you, you may want to checkout their branch in
+your own fork to review changes in a pull request or add changes of your own:
 
 1. TODO
 
@@ -8,7 +9,7 @@ When another person has created a separate fork from the same upstream as you, y
     TODO
     ```
 
-### More Workflows
+## More Workflows
 
 - [Checkout a branch to a fork](CheckoutABranchToAFork.md)
 - [Configure a fork](ConfigureAFork.md)

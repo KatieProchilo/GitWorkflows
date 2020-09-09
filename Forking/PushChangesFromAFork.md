@@ -4,7 +4,8 @@ Submit changes from a fork to the upstream repository:
 
 1. [Configure a **forked repository**](ConfigureAFork.md) if not done already.
 
-1. [Pull](PullChangesToAFork.md) or [rebase](RebaseChangesToAFork.md) the latest changes from **upstream/master** into the **master** branch of your local **forked repository**.
+1. [Pull](PullChangesToAFork.md) or [rebase](RebaseChangesToAFork.md) the latest changes from **upstream/master** into
+the **master** branch of your local **forked repository**.
 
 1. Create a local **featureBranch**:
 
@@ -25,7 +26,7 @@ Submit changes from a fork to the upstream repository:
     git push origin featureBranch
     ```
 
-### More Workflows
+## More Workflows
 
 * [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
 * [Checkout a branch to a fork](CheckoutABranchToAFork.md)

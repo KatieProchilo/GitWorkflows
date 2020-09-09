@@ -23,7 +23,7 @@ Get changes without merge commits from **upstream/featureBranch** into **feature
     git push -f origin featureBranch
     ```
 
-### More Workflows
+## More Workflows
 
 - [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
 - [Checkout a branch to a fork](CheckoutABranchToAFork.md)

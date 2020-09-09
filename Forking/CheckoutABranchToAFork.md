@@ -1,6 +1,7 @@
 # Checkout a branch to a fork
 
-When another person has created a forked repository from your upstream, you may want to checkout their branch to review changes in a pull request or add changes of your own:
+When another person has created a forked repository from your upstream, you may want to checkout their branch to review
+changes in a pull request or add changes of your own:
 
 1. TODO
 
@@ -8,7 +9,7 @@ When another person has created a forked repository from your upstream, you may 
     TODO
     ```
 
-### More Workflows
+## More Workflows
 
 - [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
 - [Configure a fork](ConfigureAFork.md)
