@@ -2,11 +2,6 @@
 
 Minimal commands and reading to execute Git workflows.
 
-## Branching
-
-- [Checkout a branch from a fork to another fork](Forking/CheckoutABranchFromAForkToAnotherFork.md)
-- [Checkout a branch to a fork](Forking/CheckoutABranchToAFork.md)
-
 ## Forking
 
 - [Checkout a branch from a fork to another fork](Forking/CheckoutABranchFromAForkToAnotherFork.md)
