@@ -13,10 +13,6 @@ track it.
     git remote add upstream https://github.com/KatieProchilo/GitWorkflows.git
     ```
 
-## More Workflows
+***
 
-- [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
-- [Checkout a branch to a fork](CheckoutABranchToAFork.md)
-- [Pull changes to a fork](PullChangesToAFork.md)
-- [Push changes from a fork](PushChangesFromAFork.md)
-- [Rebase changes to a fork](RebaseChangesToAFork.md)
+*[Return home.](../README.md)*

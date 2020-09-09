@@ -18,4 +18,5 @@ Minimal commands and reading to execute Git workflows.
 
 ## Miscellaneous
 
+- [Configure pulling with rebase by default](Miscellaneous/ConfigurePullingWithRebaseByDefault.md)
 - [Rename the master branch to main](Miscellaneous/RenameTheMasterBranchToMain.md)

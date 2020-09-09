@@ -26,10 +26,6 @@ the **master** branch of your local **forked repository**.
     git push origin featureBranch
     ```
 
-## More Workflows
+***
 
-* [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
-* [Checkout a branch to a fork](CheckoutABranchToAFork.md)
-* [Configure a fork](ConfigureAFork.md)
-* [Pull changes to a fork](PullChangesToAFork.md)
-* [Rebase changes to a fork](RebaseChangesToAFork.md)
+*[Return home.](../README.md)*

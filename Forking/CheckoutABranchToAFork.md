@@ -9,10 +9,6 @@ changes in a pull request or add changes of your own:
     TODO
     ```
 
-## More Workflows
+***
 
-- [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
-- [Configure a fork](ConfigureAFork.md)
-- [Pull changes to a fork](PullChangesToAFork.md)
-- [Push changes from a fork](PushChangesFromAFork.md)
-- [Rebase changes to a fork](RebaseChangesToAFork.md)
+*[Return home.](../README.md)*

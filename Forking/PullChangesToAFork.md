@@ -18,8 +18,6 @@ Get the changes from some remote branch from the upstream repository into a loca
 
 ## More Workflows
 
-- [Checkout a branch from a fork to another fork](CheckoutABranchFromAForkToAnotherFork.md)
-- [Checkout a branch to a fork](CheckoutABranchToAFork.md)
-- [Configure a fork](ConfigureAFork.md)
-- [Push changes from a fork](PushChangesFromAFork.md)
-- [Rebase changes to a fork](RebaseChangesToAFork.md)
+***
+
+*[Return home.](../README.md)*

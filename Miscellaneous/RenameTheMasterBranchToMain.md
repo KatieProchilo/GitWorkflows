@@ -40,3 +40,7 @@ they now apply to `main`.
 
 Be sure to update any other infrastructure that depends on the `master` branch by name, such as CI/CD, configuration
 files, badges, or anywhere else information might be hard-coded.
+
+***
+
+*[Return home.](../README.md)*
