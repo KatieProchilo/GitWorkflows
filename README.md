@@ -1,5 +1,7 @@
 # Git Workflows
 
+[![GitHub Super-Linter](https://github.com/KatieProchilo/GitWorkflows/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 Minimal commands and reading to execute Git workflows.
 
 ## Forking

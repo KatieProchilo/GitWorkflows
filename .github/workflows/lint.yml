@@ -1,0 +1,26 @@
+name: Lint
+
+on:
+  push:
+
+jobs:
+  lint:
+    name: Lint updated files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
+          fetch-depth: 0
+
+      # https://github.com/github/super-linter
+      - name: Super-Linter
+        uses: github/super-linter@v3.14.0
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: .linters/
+          DEFAULT_BRANCH: main
+          MARKDOWN_CONFIG_FILE: .markdown-lint.yml
