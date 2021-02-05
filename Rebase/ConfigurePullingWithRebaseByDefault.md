@@ -1,0 +1,34 @@
+# Configure pulling with rebase by default
+
+When you execute the `git pull` command, Git execute two commands behind the scenes. With default configuration, these
+commands are:
+
+```bash
+git fetch
+git merge FETCH_HEAD
+```
+
+It's also possible to pull with rebasing by running `git pull --rebase`, which executes:
+
+```bash
+git fetch
+git rebase
+```
+
+## Solution
+
+Configure Git to pull with rebase by default for the current repository:
+
+```bash
+git config pull.rebase true
+```
+
+Or configure Git to pull with rebase for all the current user's repositories:
+
+```bash
+git config --global pull.rebase true
+```
+
+***
+
+*[Return home.](../README.md)*
