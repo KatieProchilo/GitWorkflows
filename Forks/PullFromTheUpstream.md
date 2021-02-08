@@ -1,8 +1,8 @@
-# Pull changes to a fork
+# Pull from the upstream
 
-Get the changes from some remote branch from the upstream repository into a local branch of your fork:
+Pull the changes from an upstream branch to a local branch in your fork:
 
-1. Pull from the upstream into a **featureBranch** of a fork:
+1. Pull from the upstream to a fork's **featureBranch**:
 
     ```bash
     git pull upstream featureBranch
@@ -15,8 +15,6 @@ Get the changes from some remote branch from the upstream repository into a loca
     ```bash
     git push origin featureBranch
     ```
-
-## More Workflows
 
 ***
 

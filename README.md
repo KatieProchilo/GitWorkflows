@@ -1,25 +1,34 @@
 # Git Workflows
 
-[![GitHub Super-Linter](https://github.com/KatieProchilo/GitWorkflows/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub
+Super-Linter](https://github.com/KatieProchilo/GitWorkflows/workflows/Lint/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-Minimal commands and reading to execute Git workflows.
+A quick source for less common Git workflows that you never got around to remembering. Each workflow has minimal
+background info, so be familiar with the basics of Git.
 
-## Forking
+## Glossary
 
-- [Checkout a branch from a fork to another fork](Forking/CheckoutABranchFromAForkToAnotherFork.md)
-- [Checkout a branch to a fork](Forking/CheckoutABranchToAFork.md)
-- [Configure a fork](Forking/ConfigureAFork.md)
-- [Pull changes to a fork](Forking/PullChangesToAFork.md)
-- [Push changes from a fork](Forking/PushChangesFromAFork.md)
-- [Rebase changes to a fork](Forking/RebaseChangesToAFork.md)
+Git Workflows will consistently use these terms:
+
+| Term         | Description                                                                  |
+| ------------ | ---------------------------------------------------------------------------- |
+| **origin**   | Git's default name for a remote repository, including forks.                 |
+| **upstream** | The name we will use for the remote repository that a fork was created from. |
+
+## Forks
+
+<!--- [Checkout a branch from another fork](Forks/CheckoutABranchFromAnotherFork.md)
+- [Checkout a branch from the upstream](Forks/CheckoutABranchFromTheUpstream.md)-->
+
+- [Configure the upstream](Forks/ConfigureTheUpstream.md)
+- [Pull from the upstream](Forks/PullFromTheUpstream.md)
+- [Push to the upstream](Forks/PushToTheUpstream.md)
+- [Rebase from the upstream](Forks/RebaseFromTheUpstream.md)
 
 ## Miscellaneous
 
-- [Rename the master branch to main](Miscellaneous/RenameTheMasterBranchToMain.md)
+- [Rename the **master** branch to **main**](Miscellaneous/RenameTheMasterBranchToMain.md)
 
 ## Rebase
 
-- [Configure pulling with rebase by default](Miscellaneous/ConfigurePullingWithRebaseByDefault.md)
-
-<!-- - [Pull a branch someone else rebased when there are local commits]()
-- [Rebase a branch against another]() -->
+- [Pull with rebase](Rebase/PullWithRebase.md)

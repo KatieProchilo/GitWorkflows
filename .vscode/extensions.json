@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "davidanson.vscode-markdownlint",
+        "stkb.rewrap",
         "streetsidesoftware.code-spell-checker"
     ]
 }
