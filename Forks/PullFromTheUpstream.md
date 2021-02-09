@@ -1,21 +1,17 @@
 # Pull from the upstream
 
-Pull the changes from an upstream branch to a local branch in your fork:
+Pull changes from **upstream/someBranch** to a fork's **someBranch**:
 
-1. Pull from the upstream to a fork's **featureBranch**:
-
-    ```bash
-    git pull upstream featureBranch
-    ```
-
-1. Solve any conflicts.
-
-1. Push **origin/featureBranch**:
-
-    ```bash
-    git push origin featureBranch
-    ```
+```bash
+git checkout someBranch
+git pull upstream someBranch
+```
 
 ***
 
-*[Return home.](../README.md)*
+*[Return home](../README.md) or view related workflows:*
+
+- [Configure the upstream](ConfigureTheUpstream.md)
+- [Delete an upstream branch](DeleteAnUpstreamBranch.md)
+- [Push to the upstream](PushToTheUpstream.md)
+- [Rebase onto the upstream](RebaseOntoTheUpstream.md)

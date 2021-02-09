@@ -1,17 +1,19 @@
 # Configure the upstream
 
-Start with an upstream repository you would like to fork. To configure a fork from this repository:
+Add a remote called **upstream** to track the original repository:
 
-1. Create a fork from the upstream repository.
-
-1. Clone the fork.
-
-1. Add another remote called **upstream** that is set to track the upstream repository:
-
-    ```bash
-    git remote add upstream https://github.com/KatieProchilo/GitWorkflows.git
-    ```
+```bash
+# Replace with the original repository's values:
+git remote add upstream https://github.com/<OWNER>/<REPOSITORY>.git
+# Here's an example for this repository:
+git remote add upstream https://github.com/KatieProchilo/GitWorkflows.git
+```
 
 ***
 
-*[Return home.](../README.md)*
+*[Return home](../README.md) or view related workflows:*
+
+- [Delete an upstream branch](DeleteAnUpstreamBranch.md)
+- [Pull from the upstream](PullFromTheUpstream.md)
+- [Push to the upstream](PushToTheUpstream.md)
+- [Rebase onto the upstream](RebaseOntoTheUpstream.md)

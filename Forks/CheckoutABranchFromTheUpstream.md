@@ -1,7 +1,6 @@
 # Checkout a branch from the upstream
 
-When another person has created a forked repository from the upstream, you may want to checkout their branch to review
-changes in a pull request or add changes of your own:
+TODO
 
 1. TODO
 
@@ -11,4 +10,10 @@ changes in a pull request or add changes of your own:
 
 ***
 
-*[Return home.](../README.md)*
+*[Return home](../README.md) or view related workflows:*
+
+- [Configure the upstream](ConfigureTheUpstream.md)
+- [Delete an upstream branch](DeleteAnUpstreamBranch.md)
+- [Pull from the upstream](PullFromTheUpstream.md)
+- [Push to the upstream](PushToTheUpstream.md)
+- [Rebase onto the upstream](RebaseOntoTheUpstream.md)
