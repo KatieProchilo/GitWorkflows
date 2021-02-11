@@ -13,6 +13,7 @@ git remote add upstream https://github.com/KatieProchilo/GitWorkflows.git
 
 *[Return home](../README.md) or view related workflows:*
 
+- [Checkout a branch from the upstream](CheckoutABranchFromTheUpstream.md)
 - [Delete an upstream branch](DeleteAnUpstreamBranch.md)
 - [Pull from the upstream](PullFromTheUpstream.md)
 - [Push to the upstream](PushToTheUpstream.md)

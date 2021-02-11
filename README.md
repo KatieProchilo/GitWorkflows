@@ -8,9 +8,7 @@ they're doing with Git.
 
 ## Forks
 
-<!--- [Checkout a branch from another fork](Forks/CheckoutABranchFromAnotherFork.md)
-- [Checkout a branch from the upstream](Forks/CheckoutABranchFromTheUpstream.md)-->
-
+- [Checkout a branch from the upstream](Forks/CheckoutABranchFromTheUpstream.md)
 - [Configure the upstream](Forks/ConfigureTheUpstream.md)
 - [Delete an upstream branch](Forks/DeleteAnUpstreamBranch.md)
 - [Pull from the upstream](Forks/PullFromTheUpstream.md)

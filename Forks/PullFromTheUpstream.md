@@ -11,6 +11,7 @@ git pull upstream someBranch
 
 *[Return home](../README.md) or view related workflows:*
 
+- [Checkout a branch from the upstream](CheckoutABranchFromTheUpstream.md)
 - [Configure the upstream](ConfigureTheUpstream.md)
 - [Delete an upstream branch](DeleteAnUpstreamBranch.md)
 - [Push to the upstream](PushToTheUpstream.md)

@@ -1,12 +1,11 @@
 # Checkout a branch from the upstream
 
-TODO
+Checkout **upstream/someBranch** to a fork:
 
-1. TODO
-
-    ```bash
-    TODO
-    ```
+```bash
+git fetch upstream
+git checkout someBranch
+```
 
 ***
 
