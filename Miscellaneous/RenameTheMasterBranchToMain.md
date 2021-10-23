@@ -16,15 +16,15 @@ Rename the default branch from **master** to **main**:
     git branch -m master main
     ```
 
+1. On your preferred Git provider, update the default branch from **master** to **main**. On GitHub this can be found
+   under **Settings**, then click **Branches** in the **Options** menu. Update any branch protection rules for
+   **master** so that they apply to **main** instead.
+
 1. Push the new **main** branch:
 
     ```bash
     git push -u origin main
     ```
-
-1. On your preferred Git provider, update the default branch from **master** to **main**. On GitHub this can be found
-   under **Settings**, then click **Branches** in the **Options** menu. Update any branch protection rules for
-   **master** so that they apply to **main** instead.
 
 1. Delete the remote **master** branch:
 
